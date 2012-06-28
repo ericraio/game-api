@@ -3,3 +3,11 @@
 This is a full featured game API to support dynamic field creation in MongoDB written with Rails. 
 The api was built to allow mobile apps to store or sync their data to the API and a website can read from the database to output to the browser.
 
+
+== Install
+* Install Ruby 1.9.3
+* Install MongoDB
+* cd into Game-API
+* run bundle install
+
+Lastly, start up mongo and rails. To test it out, curl your commands to the api's end points which can be found in the API rspec documentation.
